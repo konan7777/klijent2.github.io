@@ -1,6 +1,7 @@
 header{
 	background-color: $tamna;
-	height: 5vw;
+	font-weight: bold;
+	height: 4vw;
 
 	nav{
 		padding-top: 0.3vw;
@@ -11,6 +12,7 @@ header{
 
 			a{
 				text-decoration: none;
+				//z-index: 1;
 
 				li{
 					display: inline-block;

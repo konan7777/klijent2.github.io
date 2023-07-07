@@ -1,19 +1,39 @@
 footer{
 	background-color: $tamna;
-	height: 40vw;
+	height: 20vw;
+	letter-spacing: 1px;
+	line-height: 30px;
 
-	div{
+	p, h1{
+		color: $zlatna;
+	}
 
-		div{
+	p, a{
+		font-size: 1.3vw;
+	}
 
-			p, h1{
-				color: $zlatna;
-			}
+	h1{
+		font-size: 2.5vw;
+	}
 
-			a{
-				text-decoration: none;
-				color: $zlatna;
-			}
+	a{
+		text-decoration: none;
+		color: $zlatna;
+	}
+
+	div.futerLevo{
+		width: 60%;
+		float: left;
+
+		p, h1{
+			color: $zlatna;
+			padding-left: 10vw;
 		}
+	}
+
+	div.futerDesno{
+		width: 40%;
+		float: left;
+		padding-top: 2vw;
 	}
 }
